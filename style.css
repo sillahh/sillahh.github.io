@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 80%;
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+header h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+
+table {
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table thead {
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+}
+
+#contact-disclaimer h2 {
+    text-align: center;
+}
+
+#contact-disclaimer p {
+    text-align: center;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+#links {
+    float: left;
+}
